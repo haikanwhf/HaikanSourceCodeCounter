@@ -1,0 +1,117 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HaikanSourceCodeCounter
+</name>
+</assembly>
+<members>
+<member name="M:HaikanSourceCodeCounter.FormMain.FormMain_Load(System.Object,System.EventArgs)">
+ <summary>
+ 窗体加载
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.btnSelPath_Click(System.Object,System.EventArgs)">
+ <summary>
+ 选择保存目录
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.Showdir">
+ <summary>
+ 显示驱动器列表
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.tvList_AfterExpand(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+ <summary>
+ 展开驱动器目录
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.tvList_AfterCheck(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+ <summary>
+ 点击列表事件
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.SourceCounter(System.String,System.String)">
+ <summary>
+ 计算函数
+ </summary>
+ <param name="foundFile"></param>
+ <param name="path"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.stringFormat(System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 字符串格式化
+ </summary>
+ <param name="inputstring"></param>
+ <param name="inputlength"></param>
+ <param name="change"></param>
+ <param name="pos"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.SourceCounter2(System.String,System.String)">
+ <summary>
+ 第二种计算方式
+ </summary>
+ <param name="foundFile"></param>
+ <param name="path"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.btnAbout_Click(System.Object,System.EventArgs)">
+ <summary>
+ 点击关于按钮
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.支持网站ToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ 打开支持网站
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ 点击重置按钮
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.btnStart_Click(System.Object,System.EventArgs)">
+ <summary>
+ 点击开始统计按钮
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:HaikanSourceCodeCounter.FormMain.退出ToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ 点击退出
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
